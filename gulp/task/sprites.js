@@ -1,7 +1,7 @@
-var gulp      = require('gulp');
-var svgSprite = require('gulp-svg-sprite');
-var rename = require('gulp-rename');
-var del = require('del');
+var gulp  = require('gulp'),
+svgSprite = require('gulp-svg-sprite'),
+rename    = require('gulp-rename'),
+del       = require('del');
 
 var config = {
   mode: {
