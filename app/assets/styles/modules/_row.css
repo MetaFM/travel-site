@@ -99,7 +99,7 @@
     padding-top:80px;
   }
 
-  &--gutters--equal-height-at-medium {
+  .flexbox &--gutters--equal-height-at-medium {
     @mixin atMedium{
       display:flex;
     }
@@ -110,7 +110,7 @@
     }
   }
 
-  &--gutters--equal-height-at-large{
+  .flexbox &--gutters--equal-height-at-large{
     @mixin atLarge{
       display:flex;
     }
